@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu1_vista"
+
+
+        android:icon="@drawable/chart"
+        android:title="Vista"/>
+
+    <item android:id="@+id/menu1_posicionar"
+        android:icon="@drawable/marcador_google_maps"
+        android:title="Posicionar"/>
+
+    <item android:id="@+id/menu1_pred1d"
+        android:icon="@drawable/tag"
+        android:title="Predicciones"/>
+
+    <item android:id="@+id/menu1_salir"
+        android:icon="@drawable/filter"
+        android:title="Salir"/>
+</menu>

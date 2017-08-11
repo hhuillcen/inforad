@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/txBienvenida"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DATOS GEOREFENCIADOS"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/txubic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="txperfil"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/tmp2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:id="@+id/txPerfil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="txperfil"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center">
+
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="Bajo"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:background="#00FF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="3"
+                        android:gravity="center"
+                        android:text="Modera"
+                        android:textSize="17dp"
+                        android:layout_margin="2dp"
+                        android:textStyle="bold"
+                        android:background="#FFFF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="Alto"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:background="#FFBF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="3"
+                        android:gravity="center"
+                        android:text="Muy Alto"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:background="#FF0000">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:gravity="center"
+                        android:text="Ex"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:background="#DF01A5">
+                    </TextView>
+                </TableRow>
+
+
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:text="1"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#00FF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:text="2"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#00FF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:text="3"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FFFF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:text="4"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FFFF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:text="5"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FFFF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:text="6"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FFBF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:text="7"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FFBF00">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:text="8"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FF0000">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:text="9"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#FF0000">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:text="10"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:background="#FF0000">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:text="11"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="#DF01A5">
+                    </TextView>
+                </TableRow>
+
+
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center">
+
+
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:max="10"
+                android:clickable="false"
+                    android:layout_gravity="top" />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center">
+
+
+
+            <ImageView android:id="@+id/ImgReco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reco1"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Tmp4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Recuerde que en lo posible evite exponerse al sol, las recomendaciones presentes son en caso de exposición solar"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="#000000"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center">
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver tiempos máximos de exposición solar"
+                android:id="@+id/button"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/txcab1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="OTROS DATOS CLIMÁTICOS DEL SENSOR"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:id="@+id/txttemp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="OTROS DATOS CLIMÁTICOS DEL SENSOR"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:id="@+id/txthv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="OTROS DATOS CLIMÁTICOS DEL SENSOR"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
